@@ -404,5 +404,6 @@ ion-icon{
     #monitor{
         width: 200px;
         height: auto;
+        transform: translateX(2px);
     }
 }
