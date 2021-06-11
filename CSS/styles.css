@@ -213,6 +213,10 @@ ion-icon{
     display: inline-block;
 }
 
+.foot4{
+    display: none;
+}
+
 .version{
     color: #f5f5f5;
     background-color: #6d3bcb;
@@ -275,6 +279,130 @@ ion-icon{
     color: whitesmoke;
 }
 
-@media only screen and (max-width: 800px){
-    /* further editing next days */
+@media (max-width: 1360px){
+    
+    .seccion3{
+        margin: auto;
+        padding: 10px;
+        display: block;
+        justify-content: center;
+    }
+    
+    .img_contenedor3{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .cabecero{
+        display: block !important;
+    }
+    ul{
+        padding: 0;
+    }
+    .seccion3{
+        margin: 0 0 2em 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    body{
+        font-size: 0.9em !important;
+    }
+
+    h1{
+        margin: 1em;
+        font-size: 1.5em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    li a{
+        line-height: 2em;
+    }
+
+    .media_icons{
+        display: none;
+    }
+
+    .texto p{
+        font-size: 1em;
+        padding: 0 60px;
+    }
+
+    .texto2 p{
+        font-size: 1em;
+        padding: 0 60px;
+    }
+
+    .texto3 p{
+        font-size: 1em;
+        padding: 0 60px;
+    }
+
+    .dropdown_button{
+        font-size: 0.9em;
+        padding: 0.5em 0.5em 1em 0.5em;
+    }
+
+    .dropdown_contenido{
+        min-width: 100px;
+    }
+
+    .dropdown_contenido a{
+        font-size: 0.9em;
+    }
+
+    ion-icon{
+        font-size: 25px;
+    }
+
+    .foot4{
+        display: inline-block;
+    }
+
+    .foot4 ion-icon{
+        color: #f5f5f5;
+        padding: 0.1em;
+    }
+
+    .seccion1{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .seccion2{
+        margin: 1em auto;
+    }
+
+    #logomini{
+        width: 100px;
+        height: auto;
+    }
+
+    #logoPhase{
+        width: 200px;
+        height: auto;
+    }
+
+    #devices{
+        width: 200px;
+        height: auto;
+        transform: translateX(2px);
+    }
+
+    .img_contenedor2{
+        margin: 1em;
+    }
+
+    #monitor{
+        width: 200px;
+        height: auto;
+    }
 }
