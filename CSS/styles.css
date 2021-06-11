@@ -407,3 +407,106 @@ ion-icon{
         transform: translateX(2px);
     }
 }
+
+@media screen and (max-width: 420px) {
+    body{
+        font-size: 0.9em !important;
+    }
+
+    h1{
+        margin: 1em;
+        font-size: 1.5em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    li a{
+        line-height: 2em;
+    }
+
+    .contenedor_pie_pagina{
+        padding: 3em;
+    }
+
+    .media_icons{
+        display: none;
+    }
+
+    .texto p{
+        font-size: 1em;
+        padding: 0 60px;
+    }
+
+    .texto2 p{
+        font-size: 1em;
+        padding: 0 60px;
+    }
+
+    .texto3 p{
+        font-size: 1em;
+        padding: 0 60px;
+    }
+
+    .dropdown_button{
+        font-size: 0.9em;
+        padding: 0.5em 0.5em 1em 0.5em;
+    }
+
+    .dropdown_contenido{
+        min-width: 100px;
+    }
+
+    .dropdown_contenido a{
+        font-size: 0.9em;
+    }
+
+    ion-icon{
+        font-size: 25px;
+    }
+
+    .foot4{
+        display: inline-block;
+    }
+
+    .foot4 ion-icon{
+        color: #f5f5f5;
+        padding: 0.1em;
+    }
+
+    .seccion1{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .seccion2{
+        margin: 1em auto;
+    }
+
+    #logomini{
+        width: 100px;
+        height: auto;
+    }
+
+    #logoPhase{
+        width: 200px;
+        height: auto;
+    }
+
+    #devices{
+        width: 200px;
+        height: auto;
+        transform: translateX(2px);
+    }
+
+    .img_contenedor2{
+        margin: 1em;
+    }
+
+    #monitor{
+        width: 200px;
+        height: auto;
+        transform: translateX(2px);
+    }
+}
