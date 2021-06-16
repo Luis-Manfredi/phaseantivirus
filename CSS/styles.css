@@ -185,6 +185,12 @@ ion-icon{
     font-size: 1.5em;
     display: inline-block;
     box-shadow: 0 2px 5px gray;
+    transition: 0.5s;
+}
+
+.boton:hover{
+    color: #6D3BCB;
+    background-color: #b0b0ff;
 }
 
 .img_contenedor1{
